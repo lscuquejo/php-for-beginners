@@ -44,7 +44,7 @@
 
         <li>
 
-            <strong>Person Responsible:</strong> <?= $task['assigned_to']; ?>
+            <strong>Personal Responsible:</strong> <?= $task['assigned_to']; ?>
 
         </li>
 
