@@ -26,14 +26,19 @@
 
 <header>
 
-    <ul>
-        <?php foreach ($person as $key => $feature) : ?>
+    <h1>
 
-            <li><strong><?= $feature; ?></li></strong>
+        <?php
 
-        <?php endforeach; ?>
+            foreach ($names as $name){
 
-    </ul>
+                echo "<li>$name</li>";
+
+            }
+
+        ?>
+
+    </h1>
 
 </header>
 
