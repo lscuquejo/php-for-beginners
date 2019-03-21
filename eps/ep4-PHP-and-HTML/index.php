@@ -24,11 +24,18 @@
 
 <body>
 
-    <header>
+<header>
 
-        <h1>Hello, World</h1>
+    <h1>
+        <?php
 
-    </header>
+        echo "hello" . htmlspecialchars($_GET['name']);
+
+        ?>
+
+    </h1>
+
+</header>
 
 </body>
 

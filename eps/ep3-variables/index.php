@@ -4,4 +4,4 @@ $greeting = "hello";
 
 $name = "hello world";
 
-echo $greeting." ".$name;
+echo $greeting . " " . $name;
