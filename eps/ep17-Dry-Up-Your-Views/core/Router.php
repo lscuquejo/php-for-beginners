@@ -2,12 +2,7 @@
 
 class Router
 {
-    public $routes = [
-
-        'GET' => [],
-        'POST' => [],
-
-    ];
+    protected $routes = [];
 
     public static function load($file)
     {
@@ -21,16 +16,6 @@ class Router
     public function define($routes)
     {
         $this->routes = $routes;
-    }
-
-    public function get($uri, $controller)
-    {
-         $this->routes['GET'][$uri] = $controller;
-    }
-
-    public function post($uri, $controller)
-    {
-        $this->routes['POST'][$uri] = $controller;
     }
 
     public function direct($uri)
