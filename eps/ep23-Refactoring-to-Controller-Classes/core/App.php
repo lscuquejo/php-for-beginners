@@ -1,9 +1,8 @@
 <?php
 
-namespace App\Core;
-
 class App
 {
+
     static $registry = [];
 
     public static function bind($key, $value)
